@@ -18,7 +18,7 @@ code block:
 \`\`\`c
 #include <stdio.h>
 int main(int argc, char *argv[]) {
-    printf("Hello, World!\n");
+    printf("Hello, World!\\n");
     return 0;
 }
 \`\`\`
@@ -41,7 +41,7 @@ function Markdown() {
         <div className="main-content" style={{ height: "100%" }}>
 
             {/* HEADER */}
-            <header>
+            <header style={{marginBottom: "1rem"}}>
                 <h1 className="text-center text-light">Live Markdown Preview</h1>
                 <div className="border border-light"></div>
             </header>
